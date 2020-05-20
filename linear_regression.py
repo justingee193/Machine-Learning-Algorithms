@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import random as rand
 
 class linear_regression(object):
@@ -23,8 +22,8 @@ class linear_regression(object):
 			return np.column_stack([[1]*X.shape[0], X]).dot(self.result)
 
 class gradient_descent(object):
-	def __init__(self, epochs=1000, learning_rate=0.001, batch_size=1, 
-					penalty=0.01, verbose=False, random_state=1):
+	def __init__(self, epochs=10000, learning_rate=0.01, batch_size=1, 
+					penalty=0.001, verbose=False, random_state=1):
 		self.epochs = epochs
 		self.learning_rate = learning_rate
 		self.batch_size = batch_size
@@ -84,32 +83,30 @@ class gradient_descent(object):
 		return np.dot(X, np.append(self.intercept, self.coef))
 
 def main():
-	import numpy as np
-	import pandas
 	from sklearn.datasets import load_iris
 	from sklearn.model_selection import train_test_split
 	from sklearn.metrics import mean_squared_error
 
 	iris = load_iris()
-	df = pd.DataFrame(iris['data'], columns=iris['feature_names'])
 
-	X = df[['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)']]
-	y = df['petal width (cm)']
+	X = iris.data[:, 0]
+	y = iris.data[:, 1]
 
-	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=444)
+	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=1)
 	
 	lr = linear_regression()
 	fit = lr.fit(X=X_train, y=y_train)
 	y_pred = lr.predict(X=X_test)
+	mse = mean_squared_error(y_true=y_test, y_pred=y_pred)
 
-	print(mean_squared_error(y_true=y_test, y_pred=y_pred))
+	print("Linear Algebra Method: MSE={}, Intercept={}, Coefficients={}".format(mse, lr.intercept, lr.coef))
 	
 	stoch = gradient_descent()
 	fit = stoch.fit(X=X_train, y=y_train)
 	y_pred = stoch.predict(X=X_test)
+	mse = mean_squared_error(y_true=y_test, y_pred=y_pred)
 	
-	print(mean_squared_error(y_true=y_test, y_pred=y_pred))
+	print("Stochastic Method: MSE={}, Intercept={}, Coefficients={}".format(mse, stoch.intercept, stoch.coef))
 	
-
 if __name__ == '__main__':
 	main()
