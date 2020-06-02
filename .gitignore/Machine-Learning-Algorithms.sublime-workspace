@@ -1,0 +1,381 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"y",
+				"y_train\tstatement"
+			],
+			[
+				"return",
+				"return_counts\tparam"
+			],
+			[
+				"k",
+				"k_neighbors\tfunction"
+			],
+			[
+				"sor",
+				"sorted_dist\tstatement"
+			],
+			[
+				"pred",
+				"predict_"
+			],
+			[
+				"feature",
+				"feature_names"
+			],
+			[
+				"data",
+				"datasets\tmodule"
+			],
+			[
+				"ruc",
+				"roc_auc_score\tfunction"
+			],
+			[
+				"X_",
+				"X_train\tstatement"
+			],
+			[
+				"cos",
+				"cost_avg\tstatement"
+			],
+			[
+				"cost",
+				"cost_function\tfunction"
+			],
+			[
+				"sig",
+				"sigmoid\tfunction"
+			],
+			[
+				"co",
+				"cost_function\tfunction"
+			],
+			[
+				"bat",
+				"batch_size"
+			],
+			[
+				"normal",
+				"normalvariate\tfunction"
+			],
+			[
+				"rand",
+				"random_state"
+			],
+			[
+				"f",
+				"feature_names"
+			],
+			[
+				"ran",
+				"random_state"
+			],
+			[
+				"col",
+				"columns\tparam"
+			],
+			[
+				"lo",
+				"logistic_regression\tclass"
+			],
+			[
+				"para",
+				"params_store\tstatement"
+			],
+			[
+				"input",
+				"input_var"
+			],
+			[
+				"colum",
+				"column_stack\tfunction"
+			],
+			[
+				"max",
+				"max_iter\tparam"
+			],
+			[
+				"SGD",
+				"SGDRegressor\tclass"
+			],
+			[
+				"s",
+				"seed\tstatement"
+			],
+			[
+				"ep",
+				"epochs"
+			],
+			[
+				"pd_wrt",
+				"pd_wrt_y_hat\tstatement"
+			],
+			[
+				"mean",
+				"mean_absolute_differences"
+			],
+			[
+				"ab",
+				"abs_differences\tstatement"
+			],
+			[
+				"abs",
+				"absolute\tinstance"
+			],
+			[
+				"linea",
+				"linear_regression_la\tclass"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"conda",
+				"Conda: Activate Environment"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 163.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/__pycache__"
+	],
+	"file_history":
+	[
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/decision_tree.py",
+		"/C/Users/Justin/Desktop/resume_notes.txt",
+		"/C/Users/Justin/Desktop/data_engineer_certifications.txt",
+		"/C/Users/Justin/Desktop/resume_template.txt",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/linear_regression.py",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/knn.py",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/logistic_regression.py",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/naive_bayes.py",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/main.py",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/loss_functions.py",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/loss_functions",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/User/Conda (Windows).sublime-settings",
+		"/C/Users/Justin/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Justin/Documents/Machine-Learning-Algorithms/README.md"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cancer",
+			"learning_rate",
+			"eta",
+			"epochs",
+			"\t\n",
+			"X",
+			"count",
+			"word",
+			"error",
+			")\n",
+			"y_pred",
+			"print(mse(y_true=df['sepal length (cm)'], y_pred=predict))"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"iris",
+			"eta",
+			"n_iter",
+			"eta",
+			"y_hat"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 274.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "Machine-Learning-Algorithms.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 310.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
